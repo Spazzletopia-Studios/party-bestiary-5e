@@ -1,19 +1,51 @@
 # Party Bestiary 5E
 
-A shared bestiary for the party. Creatures the party meets in combat appear as
-cards with their picture, marked **Unidentified creature** until someone
-recognizes them. An **Identify** check reveals what a creature is and the facts
-the player chose to recall; the party's book keeps everything it learns. 5E
-compatible.
+## Purpose and features
 
-A free SpazzMods module by Spazzletopia Studios.
+Party Bestiary gives a dnd5e party a shared book of creatures and the facts it
+has learned about them.
 
-Install in Foundry VTT with this manifest URL:
-`https://github.com/Spazzletopia-Studios/party-bestiary-5e/releases/latest/download/module.json`
+- Record creatures met in combat and show facts as the party learns them.
+- Identify and research creatures, and learn from visible combat results.
+- Keep an encounter log plus party, private-character and GM-only notes.
+- Show the shared book to the table with optional dramatic reveals.
+
+Free module by Spazzletopia Studios; current public release: 0.5.2.
+
+## Setup
+
+- Foundry VTT V13 or V14 with dnd5e 5.3.0 or later. A GM must be online to
+  write the shared party book.
+- Install from the [Party Bestiary 5E releases](https://github.com/Spazzletopia-Studios/party-bestiary-5e/releases/latest),
+  or paste its published manifest URL into Foundry's **Install Module** dialog.
+- Enable **Party Bestiary 5E** in **Game Settings → Manage Modules**.
+
+## Quick start
+
+1. Start a world with a GM online and dnd5e active.
+2. Open the book with **Shift+M**, Token Controls, the SpazzMods selector, or
+   the character/group sheet button. The selector also works without Hub.
+3. Select your character, point at a creature, then press **Shift+I**.
+4. Choose up to two facts to recall and review the result in the book.
+5. Use Research on a locked fact during downtime; let combat observations fill
+   eligible facts when that setting is enabled.
+
+## Detailed use
+
+### Player workflow
+
+Identify creatures, research locked facts and add party notes. Private notes are
+visible only to your character. The check is hidden from the player.
+
+### GM workflow
+
+Use the book controls to reveal or lock facts, set a DC for a creature without
+a CR, review false leads, undo eligible results and remove entries. The shared
+book is written by the active GM client.
 
 Source and releases: [Party Bestiary 5E on GitHub](https://github.com/Spazzletopia-Studios/party-bestiary-5e).
 
-## What it does
+### Learning and using the book
 
 - **The book.** Open it from the dragon button on the party (group) sheet or
   on your own character sheet (after Short and Long Rest), from Token
